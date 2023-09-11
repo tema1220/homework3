@@ -16,13 +16,12 @@ body{
     width: 1170px;
     height: 40px;
 }
-.tabs-nav-tab1{
+.tabs-nav__tab1{
     width: 203px;
     height: 40px;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-top: 1px solid #C6CBCD;
-    /* text-align: center; */
     display: inline-block;
     color: #333;
     text-align: center;
@@ -33,11 +32,11 @@ body{
     line-height: 40px;
     text-transform: uppercase;
     border-radius: 5px 5px 0px 0px;
+    text-decoration: none;
 }
-.tabs-nav-tab2{
+.tabs-nav__tab2{
     width: 184px;
     height: 40px;
-    /* text-align: center; */
     margin-left: -5px;
     display: inline-block;
     color: #333;
@@ -50,12 +49,12 @@ body{
     text-transform: uppercase;
     border-bottom: 1px solid #C6CBCD;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .tabs-nav__tab3{
     width: 184px;
     height: 40px;
-    /* text-align: center; */
     margin-left: -5px;
     display: inline-block;
     color: #333;
@@ -68,6 +67,7 @@ body{
     text-transform: uppercase;
     border-bottom: 1px solid #C6CBCD;
     cursor: pointer;
+    display: inline-block;    text-decoration: none;
 }
 .tabs-nav__tab4{
     width: 602px;
@@ -99,7 +99,6 @@ body{
     vertical-align: top
 }
 .content-info__title{
-    /* display: inline; */
     text-align: left;
     width: 570px;
     height: 124px;
@@ -151,10 +150,6 @@ body{
     display: inline-block;
     margin-left: -2px;
     margin-bottom: 0px;
-}
-.tabs-nav-tab__title{
-    display: inline-block;
-    text-decoration: none;
 }
 .content-picture__img{
     width: 470px;
